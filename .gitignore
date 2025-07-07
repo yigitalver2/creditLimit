@@ -1,1 +1,54 @@
 *.xlsx
+# macOS system files
+.DS_Store
+
+# Python bytecode
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+env/
+
+# Data folders & files
+data/
+*.csv
+*.tsv
+*.xls
+*.xlsx
+*.json
+*.parquet
+*.h5
+*.pickle
+*.joblib
+*.feather
+
+# Model binaries
+*.pkl
+*.sav
+*.h5
+*.pb
+*.pt
+*.pth
+
+# Checkpoints / logs
+*.ckpt
+*.log
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Large archives
+*.zip
+*.tar
+*.tar.gz
+
+# Project-specific large files
+creditLimit.zip
+
+# Output files
+outputs/
+
+# Git LFS attributes file (if unused)
+.gitattributes
+
